@@ -59,7 +59,7 @@ img {
     top: 0;
     bottom: 0;
     right: 0;
-    background: #45f882;
+    background: #ED7014;
     clip-path: polygon(27px 0, calc(85% - 3px) 0, 100% 50%, calc(85% - 1px) 100%, 24px 100%, 0% 50%);
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -121,7 +121,7 @@ img {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #45f882;
+    background: #ED7014;
     clip-path: polygon(28px 0, calc(85% + 2px) 0, 100% 50%, calc(85% + 1px) 100%, 28px 100%, 0% 50%);
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
@@ -138,7 +138,7 @@ img {
     letter-spacing: 1px;
     margin: 0 0;
     color: #fff;
-    text-shadow: -1px 5px 0px rgba(69, 248, 130, 0.66);
+    text-shadow: -1px 5px 0px rgba(237, 112, 20, 0.66);
     position: relative;
     text-transform: uppercase;
 }
@@ -228,7 +228,7 @@ img {
 }
 .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link,
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
-    color: #45f882;
+    color: #ED7014;
 }
 .navbar-expand-lg .navbar-nav .nav-link::before {
     content: "";
@@ -243,7 +243,7 @@ img {
     -ms-transform: translateY(-50%) rotate(0deg);
     -o-transform: translateY(-50%) rotate(0deg);
     transform: translateY(-50%) rotate(0deg);
-    background: #45f882;
+    background: #ED7014;
     margin: 0 auto;
     opacity: 0;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -370,8 +370,9 @@ img {
     width: 50%;
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
     clip-path: polygon(0 0, 0 100%, 100% 100%);
-    background-color: #45f882;
+    background-color: #ED7014;
     height: 50px;
+    display: none;
 }
 .slider__area::after {
     left: auto;
@@ -391,21 +392,22 @@ img {
     font-weight: 700;
     letter-spacing: 4px;
     font-size: 20px;
-    color: #45f882;
+    color: #ED7014;
     position: relative;
     padding: 17px 0 17px 20px;
 }
 .slider__content .sub-title::before {
     content: "";
     position: absolute;
+    background: linear-gradient(90deg, rgb(237, 112, 20) 0%, rgba(0, 0, 0, 0) 55%);
     left: 0;
     top: 0;
-    background-image: url(../images/text_gradient_bg.png);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     z-index: -1;
     opacity: 0.28;
+    border-radius: 12px;
 }
 .slider__img img {
     max-width: 754px;
@@ -416,7 +418,7 @@ img {
     font-family: 'Berlin Sans FB Demi';
     line-height: 0.8;
     color: #fff;
-    text-shadow: -1px 5px 0px rgba(69, 248, 130, 0.66);
+    text-shadow: -1px 5px 0px rgba(237, 112, 20, 0.66);
     text-transform: uppercase;
 }
 .slider__content h3 {
@@ -484,11 +486,11 @@ img {
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(90deg, transparent 0%, #45f882 50%, transparent 100%);
+    background: linear-gradient(90deg, transparent 0%, #ED7014 50%, transparent 100%);
 }
 .count-box span {
     background-color: rgb(14 14 22 / 40%);
-    border: 2px solid #45f882;
+    border: 2px solid #ED7014;
     color: #fff;
     font-style: italic;
     display: inline-block;
@@ -502,7 +504,7 @@ img {
 .count-box h2 {
     font-size: 80px;
     font-family: 'Berlin Sans FB Demi';
-    text-shadow: -1px 5px 0px rgba(69, 248, 130, 0.66);
+    text-shadow: -1px 5px 0px rgba(237, 112, 20, 0.66);
     text-transform: uppercase;
     line-height: normal;
     margin: 12px 0px 0px;
@@ -544,7 +546,7 @@ img {
     content: "";
     height: 15px;
     width: 15px;
-    background-color: #45f882;
+    background-color: #ED7014;
     border-radius: 100%;
     position: absolute;
     top: 12px;
@@ -591,7 +593,7 @@ img {
     height: 6px;
     width: 20px;
     display: inline-block;
-    background-color: #45f882;
+    background-color: #ED7014;
     margin-right: 6px;
     transform: translateY(-3px);
 }
@@ -619,8 +621,8 @@ img {
     top: 0;
     width: 6px;
     height: 100%;
-    background: -moz-linear-gradient(90deg, #10161c 0%, #45f882 100%);
-    background: -webkit-linear-gradient(90deg, #10161c 0%, #45f882 100%);
+    background: -moz-linear-gradient(90deg, #10161c 0%, #ED7014 100%);
+    background: -webkit-linear-gradient(90deg, #10161c 0%, #ED7014 100%);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -o-border-radius: 5px;
@@ -673,7 +675,7 @@ img {
     position: absolute;
     top: 6px;
     left: 0px;
-    color: #45f882;
+    color: #ED7014;
 }
 
 
@@ -704,7 +706,7 @@ img {
     top: 5%;
     width: 1px;
     height: 90%;
-    background: linear-gradient(360deg, transparent 0%, #45f882 50%, transparent 100%);
+    background: linear-gradient(360deg, transparent 0%, #ED7014 50%, transparent 100%);
 }
 .supply-box h3 {
     font-size: 22px;
@@ -712,7 +714,7 @@ img {
 }
 .supply-box h2 {
     font-size: 36px;
-    color: #45f882;
+    color: #ED7014;
     text-transform: uppercase;
     margin: 0px;
 }
@@ -799,7 +801,7 @@ img {
     font-size: 28px;
     letter-spacing: 1px;
     margin: 0 0 20px;
-    color: #45f882;
+    color: #ED7014;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -1013,7 +1015,7 @@ img {
     line-height: 46px;
     font-size: 24px;
     text-align: center;
-    background-color: #45f882;
+    background-color: #ED7014;
     color: #050506;
     border-radius: 5px;
     cursor: pointer;
@@ -1033,5 +1035,5 @@ img {
 }
 
 .green-text {
-    color: #45f882;
+    color: #ED7014;
 }
