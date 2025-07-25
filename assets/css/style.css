@@ -794,6 +794,18 @@ img {
     .footer-el-widget:not(.widget_nav_menu) {
         margin-top: 0;
     }
+    .buy-btns {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .buy-btns .btn.btn-primary {
+        padding: 15px 40px;
+    }
+    .buy-btns .btn.btn-secondary {
+        min-height: 100px;
+        display: block;
+        padding: 0px;
+    }
 }
 
 .footer-el-widget .title {
